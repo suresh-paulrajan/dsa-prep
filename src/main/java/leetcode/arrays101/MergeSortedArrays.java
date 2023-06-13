@@ -1,9 +1,7 @@
 package main.java.leetcode.arrays101;
 
-import main.java.utils.Logger;
 
 public class MergeSortedArrays {
-    static Logger log = new Logger();
     public static void main(String[] args) {
         int m=3;
         int n=3;
@@ -16,7 +14,6 @@ public class MergeSortedArrays {
         for (int i = 0; i < n; i++) {
             insertInArray(nums1, nums2[i], m, i);
         }
-        System.out.println(nums1);
     }
 
     private static void insertInArray(int[] nums1, int value, int m, int index) {
