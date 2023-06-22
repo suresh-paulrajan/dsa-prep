@@ -1,4 +1,4 @@
-package main.java.leetcode.strings.medium;
+package main.java.leetcode.strings.easy;
 
 import main.java.utils.Logger;
 
